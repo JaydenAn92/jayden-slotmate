@@ -20,6 +20,21 @@
 - **Husky**: For managing Git hooks.
 - **Lint-staged**: For running linters on staged Git files.
 
+## Deployment Instructions
+
+### Deploying via Vercel Dashboard
+1. Log in to [Vercel](https://vercel.com/).
+2. Click on **`New Project`**.
+3. Connect your **GitHub repository** to Vercel.
+4. Click the **`Deploy`** button to automatically deploy your Next.js project.
+
+### Deploying Locally with Vercel CLI
+1. Install the Vercel CLI globally by running:
+   ```bash
+   npm install -g vercel
+   ```
+2. Use the `vercel` command to deploy your project locally.
+
 # 제이든 솔메이트
 
 ## 기술 스택
