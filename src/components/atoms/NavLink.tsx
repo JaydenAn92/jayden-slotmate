@@ -4,6 +4,8 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter, usePathname } from 'next/navigation';
 
+/* eslint-disable @typescript-eslint/no-unused-vars */
+
 interface NavLinkProps {
   href: string;
   children: React.ReactNode;
